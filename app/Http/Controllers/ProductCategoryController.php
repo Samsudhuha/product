@@ -16,7 +16,7 @@ class ProductCategoryController extends Controller
         $this->productCategoryService = $productCategoryService;
     }
 
-    public function kategoriForm()
+    public function formCategory()
     {
         return view('product.form_kategori');
     }
